@@ -296,7 +296,13 @@ textarea {
 .nav-menu-link:focus {
   color: #404bbf;
 }
+.studio-link {
+  color: #4d5ae5;
+}
 
+.current {
+  color: #404bbf;
+}
 /* .current {
   font-size: 36px;
   line-height: 1.11;
@@ -390,7 +396,7 @@ textarea {
 }
 
 @media screen and (max-width: 767px) {
-  .section-title {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -400,7 +406,7 @@ textarea {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-  .section-title {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -412,7 +418,7 @@ textarea {
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
-  .section-title {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -989,7 +995,7 @@ textarea {
   }
 
   .footer-div {
-    max-width: 528px;
+    max-width: 584px;
     gap: 72px 24px;
     margin: 0 auto;
   }
