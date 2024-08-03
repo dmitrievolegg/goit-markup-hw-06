@@ -528,7 +528,7 @@ textarea {
   text-align: center;
 }
 
-.text {
+.text-feature {
   color: #434455;
   font-weight: 500;
   font-size: 16px;
@@ -586,7 +586,7 @@ textarea {
   text-align: left;
 }
 
-.text {
+.text-feature {
   font-weight: 400;
 }
 
@@ -776,7 +776,7 @@ textarea {
   overflow: hidden;
 }
 
-.text {
+.text-portfolio {
   padding: 40px 32px;
   background-color: #4d5ae5;
   position: absolute;
