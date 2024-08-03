@@ -523,7 +523,6 @@ textarea {
 }
 
 .feature-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -534,7 +533,6 @@ textarea {
 }
 
 .text-feature {
-  font-family: "Roboto", sans-serif;
   color: #434455;
   font-weight: 500;
   font-size: 16px;
@@ -585,15 +583,14 @@ textarea {
 }
 
 .feature-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-
-  text-align: left;
+  /* font-weight: 500; */
+  /* font-size: 20px; */
+  /* line-height: 1.2; */
+  /* text-align: left; */
 }
 
 .text-feature {
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 /* TEAM */
@@ -1007,6 +1004,10 @@ textarea {
     text-align: left;
   }
 
+  .logo {
+    text-align: left;
+  }
+
   .logo-footer,
   .footer-subscribe,
   .subscribe-button {
@@ -1040,12 +1041,8 @@ textarea {
     flex-wrap: nowrap;
   }
 }
-.logo {
-  text-align: left;
-}
 
 .text-footer {
-  text-align: left;
   width: 100%;
   display: block;
 }
